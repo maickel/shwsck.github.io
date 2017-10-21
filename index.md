@@ -19,10 +19,10 @@ tar xf libsodium-1.0.10.tar.gz && cd libsodium-1.0.10
 ldconfig
 
 # shadowsocks-libev
-sudo apt-get install software-properties-common -y
-sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev -y
-sudo apt-get update
-sudo apt install shadowsocks-libev
+apt-get install software-properties-common -y
+add-apt-repository ppa:max-c-lv/shadowsocks-libev -y
+apt-get update
+apt install shadowsocks-libev
 ```
 
 ### Manage
