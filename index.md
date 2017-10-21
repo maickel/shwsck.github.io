@@ -25,11 +25,23 @@ apt-get update
 apt install shadowsocks-libev
 ```
 
-### Manage
+### Configuration
 ```markdown
 # Edit the configuration file
 sudo vim /etc/shadowsocks-libev/config.json
 
+{
+    "server":"private_ip",
+    "server_port":443,
+    "local_port":1080,
+    "password":"password",
+    "timeout":600,
+    "method":"chacha20-ietf-poly1305"
+}
+```
+
+### Manage
+```markdown
 # Edit the default configuration for debian
 sudo vim /etc/default/shadowsocks-libev
 
